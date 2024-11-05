@@ -15,7 +15,11 @@ class PostTableViewCell: UITableViewCell {
     @IBOutlet weak var captionLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var likeButton: UIButton!
-
+    @IBOutlet weak var commentButton: UIButton!
+    @IBOutlet weak var commentLabel: UILabel!
+    // コメントデータを格納する配列
+    var commentArray: [String] = []
+    
     // PostDataの内容をセルに表示
     func setPostData(_ postData: PostData) {
         // 画像の表示
@@ -28,6 +32,13 @@ class PostTableViewCell: UITableViewCell {
 
         // 日時の表示
         self.dateLabel.text = postData.date
+        
+        // コメントの表示
+        self.commentArray = postData.comments.map{document in return document}
+        self.commentLabel.text = ""
+        for comment in commentArray {
+            self.commentLabel.text? += comment + "\n"
+        }
 
         // いいね数の表示
         let likeNumber = postData.likes.count

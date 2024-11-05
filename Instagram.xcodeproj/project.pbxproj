@@ -11,6 +11,7 @@
 		1038B62A2CD4BE2600ED475B /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038B6292CD4BE2500ED475B /* PostData.swift */; };
 		1038B62D2CD4BEB900ED475B /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038B62B2CD4BEB900ED475B /* PostTableViewCell.swift */; };
 		1038B62E2CD4BEB900ED475B /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1038B62C2CD4BEB900ED475B /* PostTableViewCell.xib */; };
+		1038B6302CD9DB3500ED475B /* InputCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038B62F2CD9DB3500ED475B /* InputCommentViewController.swift */; };
 		1067E91D2CD3126C001D06BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1067E91C2CD3126C001D06BD /* AppDelegate.swift */; };
 		1067E91F2CD3126C001D06BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1067E91E2CD3126C001D06BD /* SceneDelegate.swift */; };
 		1067E9242CD3126C001D06BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1067E9222CD3126C001D06BD /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		1038B6292CD4BE2500ED475B /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		1038B62B2CD4BEB900ED475B /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		1038B62C2CD4BEB900ED475B /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		1038B62F2CD9DB3500ED475B /* InputCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputCommentViewController.swift; sourceTree = "<group>"; };
 		1067E9192CD3126C001D06BD /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1067E91C2CD3126C001D06BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1067E91E2CD3126C001D06BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				10F788732CD31CE300D4988F /* TabBarController.swift */,
 				1038B62B2CD4BEB900ED475B /* PostTableViewCell.swift */,
 				1038B62C2CD4BEB900ED475B /* PostTableViewCell.xib */,
+				1038B62F2CD9DB3500ED475B /* InputCommentViewController.swift */,
 				1067E9222CD3126C001D06BD /* Main.storyboard */,
 				1038B6272CD4B74D00ED475B /* const.swift */,
 				1038B6292CD4BE2500ED475B /* PostData.swift */,
@@ -248,6 +251,7 @@
 				10F7887A2CD31EC900D4988F /* ImageSelectViewController.swift in Sources */,
 				1038B6282CD4B74D00ED475B /* const.swift in Sources */,
 				10F788782CD31EAF00D4988F /* HomeViewController.swift in Sources */,
+				1038B6302CD9DB3500ED475B /* InputCommentViewController.swift in Sources */,
 				10F7887C2CD31F1200D4988F /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
