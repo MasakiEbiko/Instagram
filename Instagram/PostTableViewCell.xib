@@ -64,8 +64,8 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PU-DG-QwD">
-                        <rect key="frame" x="10" y="435" width="310" height="20.333333333333314"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PU-DG-QwD">
+                        <rect key="frame" x="30" y="435" width="290" height="30"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -81,6 +81,7 @@
                     <constraint firstItem="jjQ-aa-ON7" firstAttribute="centerY" secondItem="3WI-zD-I0R" secondAttribute="centerY" id="God-RH-AUn"/>
                     <constraint firstItem="DLe-KR-Yu8" firstAttribute="leading" secondItem="jZd-17-o5R" secondAttribute="trailing" constant="10" id="HuJ-WN-9vw"/>
                     <constraint firstItem="kof-Qd-orh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="NRR-vy-U88"/>
+                    <constraint firstAttribute="bottom" secondItem="8PU-DG-QwD" secondAttribute="bottom" constant="10" id="QFC-eD-kgO"/>
                     <constraint firstItem="DLe-KR-Yu8" firstAttribute="centerY" secondItem="3WI-zD-I0R" secondAttribute="centerY" id="YBC-II-uLY"/>
                     <constraint firstItem="8ZT-gZ-Yp8" firstAttribute="top" secondItem="3WI-zD-I0R" secondAttribute="bottom" constant="10" id="acn-A2-j0m"/>
                     <constraint firstItem="kof-Qd-orh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dSr-2J-uhh"/>
@@ -92,7 +93,7 @@
                     <constraint firstItem="jZd-17-o5R" firstAttribute="top" secondItem="kof-Qd-orh" secondAttribute="bottom" constant="10" id="rwE-9c-CUp"/>
                     <constraint firstItem="jjQ-aa-ON7" firstAttribute="leading" secondItem="3WI-zD-I0R" secondAttribute="trailing" constant="10" id="xjt-Ut-CNd"/>
                     <constraint firstItem="jZd-17-o5R" firstAttribute="leading" secondItem="jjQ-aa-ON7" secondAttribute="trailing" constant="10" id="yp5-Xe-9T0"/>
-                    <constraint firstItem="8PU-DG-QwD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="zES-Lh-R1u"/>
+                    <constraint firstItem="8PU-DG-QwD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="zES-Lh-R1u"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

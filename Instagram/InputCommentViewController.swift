@@ -28,14 +28,13 @@ class InputCommentViewController: UIViewController {
     
     @IBAction func handlePostButton(_ sender: Any) {
         if let inputComment = comment.text, let user = Auth.auth().currentUser?.displayName {
-            
             if inputComment.isEmpty {
                 SVProgressHUD.showError(withStatus: "コメントを入力して下さい")
                 return
             }
             var updateValue: FieldValue
             let val:String = "\(user) : \(inputComment)"
-            // 今回新たにいいねを押した場合は、myidを追加する更新データを作成
+            // commentを追加する更新データを作成
             updateValue = FieldValue.arrayUnion([val])
             // commentsに更新データを書き込む
             let postRef = Firestore.firestore().collection(Const.PostPath).document(self.docId)
